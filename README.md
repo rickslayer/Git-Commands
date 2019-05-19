@@ -64,3 +64,12 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
+### Deleting branchs localy and remotely
+
+| Command | Description |
+| ------- | ----------- |
+| `git branch -d <branchname> ` | Delete branch in local repository |
+| `git push origin --delete <branchname> ` | Delete branch in remote repository |
+
+
+
